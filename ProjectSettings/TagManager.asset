@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Object
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: ground
+    uniqueID: 3635132361
+    locked: 0
+  - name: field
+    uniqueID: 957121577
+    locked: 0
+  - name: crop
+    uniqueID: 2199625023
+    locked: 0
+  - name: decoration
+    uniqueID: 4179307577
+    locked: 0
+  - name: building
+    uniqueID: 4037222437
+    locked: 0
+  - name: player
+    uniqueID: 3767547831
+    locked: 0
+  - name: frontObject
+    uniqueID: 62172633
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

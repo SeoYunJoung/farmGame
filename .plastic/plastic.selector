@@ -1,0 +1,4 @@
+repository "FarmGame@Deepseapiano@cloud"
+  path "/"
+    br "/main"
+    co "/main"
