@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    //GameManager
     public static GameManager instance;
     public tileManager tileManager;
 
@@ -12,7 +13,7 @@ public class GameManager : MonoBehaviour
     public TalkManager talkManager;
     public GameObject talkPanel;
     public Image portraitImg;
-    public Text talkText;
+    public TypeEffect talk;
     public GameObject scanObject;
     public bool talkAction;
     public int talkIndex;
@@ -57,7 +58,7 @@ public class GameManager : MonoBehaviour
             return; //함수 종료
         }
 
-        talkText.text = talkData;
+        talk.SetMsg(talkData);
         //portraitImg.color = new Color(1, 1, 1, 1);
 
         talkAction = true;

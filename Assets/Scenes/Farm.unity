@@ -4359,7 +4359,7 @@ MonoBehaviour:
   talkManager: {fileID: 1822273282}
   talkPanel: {fileID: 601428163}
   portraitImg: {fileID: 0}
-  talkText: {fileID: 1971894676}
+  talk: {fileID: 1971894678}
   scanObject: {fileID: 0}
   talkAction: 0
   talkIndex: 0
@@ -25299,6 +25299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 163d1e69a555fc549b8e6809eb70b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharPerSeconds: 6
+  EndCursor: {fileID: 746849489}
 --- !u!1 &1990689168
 GameObject:
   m_ObjectHideFlags: 0
