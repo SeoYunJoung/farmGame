@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 17a87d28b1e984b4c909af4ab873b6c4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: day1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 118
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989ce322d0e75a84aa42ea23b54eff0e
+      internalID: -1110317743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sample1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 67
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc8f667e1ed49442a2b062a9e36b187
+      internalID: 1669394788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sample2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 67
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f89bac641d2fb4d915fcdd01bdde91
+      internalID: 503049146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 60
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1bf8f8d4e9fa34189b3dcb520eb3c3
+      internalID: 1101178630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: day3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 58
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c30a8418058c5641ab16fe9fa96aab1
+      internalID: -1407055729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1b231c7f83f54a848836359459f88a31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_0: 1627217797
+      UI_1: 2095659166
+      UI_100: -1165567307
+      UI_101: 504127687
+      UI_102: 639210491
+      UI_103: -1639297212
+      UI_104: -2026056503
+      UI_105: -1631358717
+      UI_106: -598559751
+      UI_107: 1361784413
+      UI_108: -527663446
+      UI_109: 1889743706
+      UI_110: -46578268
+      UI_111: -1970416315
+      UI_112: -629847049
+      UI_16: 1254233370
+      UI_17: -682477540
+      UI_18: 979678859
+      UI_19: -219974071
+      UI_2: -180678683
+      UI_20: 1193777614
+      UI_21: 29322361
+      UI_22: 934573374
+      UI_23: -805440159
+      UI_24: 1226631666
+      UI_25: 1137708114
+      UI_26: 417574774
+      UI_27: -1155786120
+      UI_28: -1896457849
+      UI_29: 990858484
+      UI_3: -326397061
+      UI_30: 2116439847
+      UI_31: -397368462
+      UI_32: 167867153
+      UI_33: 1920535706
+      UI_34: -1725640769
+      UI_35: -378348951
+      UI_36: -1810133078
+      UI_37: -669619958
+      UI_4: 2071624611
+      UI_40: 1514316634
+      UI_41: -921711374
+      UI_42: -1986355204
+      UI_43: -333507626
+      UI_44: 358313159
+      UI_45: -1948624806
+      UI_46: 2143974398
+      UI_47: 1083922338
+      UI_48: -1240223699
+      UI_49: 102369723
+      UI_5: 1778117909
+      UI_50: 1534782090
+      UI_51: 576225533
+      UI_52: 1099238986
+      UI_53: 367683704
+      UI_54: 1271412169
+      UI_55: 1049917128
+      UI_56: -1017663451
+      UI_58: -1017503050
+      UI_59: -216913327
+      UI_6: -810182336
+      UI_60: -259990213
+      UI_61: -995140739
+      UI_62: 410682577
+      UI_63: -1903688662
+      UI_64: 1618755407
+      UI_65: -1080481711
+      UI_66: -980222397
+      UI_67: 1465149298
+      UI_68: -215007901
+      UI_69: -43980795
+      UI_7: 839586423
+      UI_70: 684489212
+      UI_71: -1574191428
+      UI_72: 680246069
+      UI_73: 837808377
+      UI_74: -752821271
+      UI_77: -1980460112
+      UI_78: 259021866
+      UI_79: 135777700
+      UI_8: 1851939902
+      UI_80: 491919017
+      UI_81: -588277194
+      UI_82: -18487941
+      UI_83: 1113896180
+      UI_84: -72787113
+      UI_85: -809205871
+      UI_86: -1605169657
+      UI_87: -917652961
+      UI_88: -1694081981
+      UI_89: -858782018
+      UI_9: -404067878
+      UI_90: -1192893255
+      UI_92: 135726969
+      UI_94: 1445097307
+      UI_95: -1173602661
+      UI_96: 118231477
+      UI_97: 1641966835
+      UI_98: -1912568375
+      UI_99: 1930788794
+      day1: -1110317743
+      day2: 1101178630
+      day3: -1407055729
+      fri: -1918312347
+      mon: 1754935039
+      sample1: 1669394788
+      sample2: 503049146
+      sat: 418662110
+      sun: -1710564146
+      thu: -1696337579
+      tue: -679979253
+      wed: -646035655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

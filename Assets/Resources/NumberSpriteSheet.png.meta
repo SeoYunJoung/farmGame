@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: 5d81835308aea274281b7ed5607f7880
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NumberSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 128
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeac82e454cc744cac58a2635b7ef74
+      internalID: 1959689787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fffed1e5bd8e4409b47a9919e81478
+      internalID: -1383639599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c104cca02a8235148bdac2d6b44c8912
+      internalID: -1349187011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf40c22875639e4d9ee6256bf635dbb
+      internalID: -2021710861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 128
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df96c8f534c342340821ef9145b87be6
+      internalID: 1528900606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe00e33c9f68f344b9eb16242905c80
+      internalID: 1280780062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77573b23f2dcd3f41937e8e5b1af0dbc
+      internalID: 1151001754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5debd85a205d47ad17b290b2f0e84
+      internalID: -644462025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36f08b1486b7184db7c844b20074ed0
+      internalID: 1674442073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 128
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09727bd12a4201246adfbccdba5c93bc
+      internalID: 2051524695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1c526a3c80d70ce4fbd2d2c2600fa534
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NumberSpriteSheet_0: 2051524695
+      NumberSpriteSheet_1: 1959689787
+      NumberSpriteSheet_100: -319195686
+      NumberSpriteSheet_101: 1770700785
+      NumberSpriteSheet_102: 1367564145
+      NumberSpriteSheet_103: 1673355275
+      NumberSpriteSheet_104: -1773775790
+      NumberSpriteSheet_105: 1928153646
+      NumberSpriteSheet_106: -556315123
+      NumberSpriteSheet_107: 249137216
+      NumberSpriteSheet_108: 2034398913
+      NumberSpriteSheet_109: 2012295857
+      NumberSpriteSheet_110: -353063757
+      NumberSpriteSheet_111: -1349187011
+      NumberSpriteSheet_13: 952791339
+      NumberSpriteSheet_14: 1351940774
+      NumberSpriteSheet_15: 312577980
+      NumberSpriteSheet_16: -873251686
+      NumberSpriteSheet_17: 643215235
+      NumberSpriteSheet_18: -1211580550
+      NumberSpriteSheet_19: -425542774
+      NumberSpriteSheet_2: -1383639599
+      NumberSpriteSheet_20: -1303805472
+      NumberSpriteSheet_21: 613296897
+      NumberSpriteSheet_22: 1326711179
+      NumberSpriteSheet_23: -1421844284
+      NumberSpriteSheet_24: -2016365783
+      NumberSpriteSheet_25: -1422882003
+      NumberSpriteSheet_26: -549051699
+      NumberSpriteSheet_27: -291536161
+      NumberSpriteSheet_28: -1248973878
+      NumberSpriteSheet_29: -1434764579
+      NumberSpriteSheet_3: -2021710861
+      NumberSpriteSheet_30: 1667678281
+      NumberSpriteSheet_31: -2021751785
+      NumberSpriteSheet_32: 920212207
+      NumberSpriteSheet_33: 1913580791
+      NumberSpriteSheet_34: -1940614302
+      NumberSpriteSheet_35: -963325267
+      NumberSpriteSheet_36: -1164429527
+      NumberSpriteSheet_37: -965112512
+      NumberSpriteSheet_38: 2009633919
+      NumberSpriteSheet_39: -527396569
+      NumberSpriteSheet_4: 1528900606
+      NumberSpriteSheet_40: -1781276306
+      NumberSpriteSheet_41: -1765290446
+      NumberSpriteSheet_43: 320103478
+      NumberSpriteSheet_44: -1206969818
+      NumberSpriteSheet_45: -736535403
+      NumberSpriteSheet_46: 340555003
+      NumberSpriteSheet_47: 1608791811
+      NumberSpriteSheet_48: -1908020545
+      NumberSpriteSheet_49: 208199503
+      NumberSpriteSheet_5: 1280780062
+      NumberSpriteSheet_50: -1559400609
+      NumberSpriteSheet_51: -459792315
+      NumberSpriteSheet_52: 759018197
+      NumberSpriteSheet_53: 342660679
+      NumberSpriteSheet_54: 85305507
+      NumberSpriteSheet_55: 1682568774
+      NumberSpriteSheet_56: 225414894
+      NumberSpriteSheet_57: 536203507
+      NumberSpriteSheet_58: -584338683
+      NumberSpriteSheet_59: -1310924537
+      NumberSpriteSheet_6: 1280780062
+      NumberSpriteSheet_60: -831412946
+      NumberSpriteSheet_61: 119472201
+      NumberSpriteSheet_62: 1657670440
+      NumberSpriteSheet_63: 326222986
+      NumberSpriteSheet_64: -814471754
+      NumberSpriteSheet_65: -796001524
+      NumberSpriteSheet_66: -1801189088
+      NumberSpriteSheet_67: 1090191632
+      NumberSpriteSheet_68: -1988883535
+      NumberSpriteSheet_69: 866765698
+      NumberSpriteSheet_7: 1151001754
+      NumberSpriteSheet_70: 724816371
+      NumberSpriteSheet_71: 748226402
+      NumberSpriteSheet_72: 560374969
+      NumberSpriteSheet_73: 364508924
+      NumberSpriteSheet_74: 1484780335
+      NumberSpriteSheet_75: 1229264363
+      NumberSpriteSheet_76: 1951506179
+      NumberSpriteSheet_77: 1306342722
+      NumberSpriteSheet_78: -1862136855
+      NumberSpriteSheet_79: -24291350
+      NumberSpriteSheet_8: -644462025
+      NumberSpriteSheet_80: -1936295320
+      NumberSpriteSheet_81: 367806884
+      NumberSpriteSheet_82: -281506209
+      NumberSpriteSheet_83: 1551602566
+      NumberSpriteSheet_84: 2057737924
+      NumberSpriteSheet_85: -490162849
+      NumberSpriteSheet_86: 1633796611
+      NumberSpriteSheet_87: -777151667
+      NumberSpriteSheet_88: -1617438640
+      NumberSpriteSheet_89: 1960378191
+      NumberSpriteSheet_9: 1674442073
+      NumberSpriteSheet_90: 1821761911
+      NumberSpriteSheet_91: 651485413
+      NumberSpriteSheet_92: -1365468615
+      NumberSpriteSheet_93: 380295862
+      NumberSpriteSheet_94: 177005731
+      NumberSpriteSheet_95: 227131356
+      NumberSpriteSheet_96: -720612961
+      NumberSpriteSheet_97: 1633260486
+      NumberSpriteSheet_98: -1115602514
+      NumberSpriteSheet_99: -180389513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

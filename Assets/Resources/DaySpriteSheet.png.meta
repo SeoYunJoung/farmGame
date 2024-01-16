@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: a9a84ecd29df1d34cbe4475c6747aba4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DaySpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95b1fab69e9a674e9c3422305cff47f
+      internalID: -603959118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaySpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 112
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314654c87c77ff445a9d51a96fea7318
+      internalID: -1368641497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaySpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f7f18baf1b28743a2de43b7dfb6d9f
+      internalID: -780794166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaySpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4afbdb26bb9641b18d71969a326d2
+      internalID: -1746000618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaySpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 64
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6c33c8553e621448904efc9de2adde
+      internalID: -713801199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaySpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 48
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6845de00ccc3e8b45b1a13a139f0c3ad
+      internalID: -1415961104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaySpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5817153be7011418b1e18a399d36a9
+      internalID: -997312952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa79a6f8851a2a94890f032989c61ddf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DaySpriteSheet_1: -603959118
+      DaySpriteSheet_10: 683781657
+      DaySpriteSheet_100: -783543259
+      DaySpriteSheet_101: 1387808774
+      DaySpriteSheet_102: 1759645924
+      DaySpriteSheet_103: -1346455301
+      DaySpriteSheet_104: 1082399457
+      DaySpriteSheet_105: -514049373
+      DaySpriteSheet_106: 1979192787
+      DaySpriteSheet_107: -302228993
+      DaySpriteSheet_108: 2121261453
+      DaySpriteSheet_109: -1356385743
+      DaySpriteSheet_11: 167178467
+      DaySpriteSheet_110: -50062516
+      DaySpriteSheet_111: 298273879
+      DaySpriteSheet_12: -1410757691
+      DaySpriteSheet_13: 596790398
+      DaySpriteSheet_14: -1468096684
+      DaySpriteSheet_16: -364355630
+      DaySpriteSheet_17: 880726720
+      DaySpriteSheet_18: 1097691610
+      DaySpriteSheet_19: -310794528
+      DaySpriteSheet_2: -1368641497
+      DaySpriteSheet_20: -181875872
+      DaySpriteSheet_21: 1958384608
+      DaySpriteSheet_22: -916102992
+      DaySpriteSheet_23: 2005802237
+      DaySpriteSheet_24: -507114878
+      DaySpriteSheet_25: 2096494832
+      DaySpriteSheet_26: -836753963
+      DaySpriteSheet_27: -1153593172
+      DaySpriteSheet_28: -422581473
+      DaySpriteSheet_29: 489983537
+      DaySpriteSheet_3: -780794166
+      DaySpriteSheet_30: 775767761
+      DaySpriteSheet_31: 406412475
+      DaySpriteSheet_32: -1478810068
+      DaySpriteSheet_33: 1977406332
+      DaySpriteSheet_34: 1456132562
+      DaySpriteSheet_35: -1528029034
+      DaySpriteSheet_36: -742089949
+      DaySpriteSheet_37: -1309335514
+      DaySpriteSheet_38: 28071867
+      DaySpriteSheet_4: -1746000618
+      DaySpriteSheet_40: -350162098
+      DaySpriteSheet_41: -1621550731
+      DaySpriteSheet_42: 1767937040
+      DaySpriteSheet_43: 590500369
+      DaySpriteSheet_44: 1551075986
+      DaySpriteSheet_45: 510905391
+      DaySpriteSheet_46: 1056873371
+      DaySpriteSheet_47: -105239109
+      DaySpriteSheet_48: -1835993704
+      DaySpriteSheet_49: 47870678
+      DaySpriteSheet_5: -713801199
+      DaySpriteSheet_50: 2141001430
+      DaySpriteSheet_51: -92809744
+      DaySpriteSheet_52: -93863919
+      DaySpriteSheet_53: 158090030
+      DaySpriteSheet_54: 1485058604
+      DaySpriteSheet_55: -1382717379
+      DaySpriteSheet_56: 1028694765
+      DaySpriteSheet_58: 172853638
+      DaySpriteSheet_59: 46716943
+      DaySpriteSheet_6: -1415961104
+      DaySpriteSheet_60: 655216056
+      DaySpriteSheet_61: 1565573835
+      DaySpriteSheet_62: 1532495437
+      DaySpriteSheet_63: -1766843409
+      DaySpriteSheet_64: -1766680374
+      DaySpriteSheet_65: 1491687874
+      DaySpriteSheet_66: 1044026368
+      DaySpriteSheet_67: 448663071
+      DaySpriteSheet_68: 461781969
+      DaySpriteSheet_69: -1973137993
+      DaySpriteSheet_7: -997312952
+      DaySpriteSheet_70: 11896951
+      DaySpriteSheet_71: 3993642
+      DaySpriteSheet_72: 1758506641
+      DaySpriteSheet_73: -88209536
+      DaySpriteSheet_74: 732210622
+      DaySpriteSheet_75: 1004928279
+      DaySpriteSheet_77: 642704895
+      DaySpriteSheet_78: 1892312567
+      DaySpriteSheet_79: -1858014901
+      DaySpriteSheet_8: -1278794226
+      DaySpriteSheet_80: -619801634
+      DaySpriteSheet_81: 451342165
+      DaySpriteSheet_82: 1481855950
+      DaySpriteSheet_83: 1560837866
+      DaySpriteSheet_84: 100537577
+      DaySpriteSheet_85: 1710020805
+      DaySpriteSheet_86: 209718773
+      DaySpriteSheet_87: -1736096403
+      DaySpriteSheet_88: -922249546
+      DaySpriteSheet_89: -856928354
+      DaySpriteSheet_90: -1463778402
+      DaySpriteSheet_91: 1809571501
+      DaySpriteSheet_92: 194828294
+      DaySpriteSheet_94: -429008778
+      DaySpriteSheet_95: 1056576239
+      DaySpriteSheet_96: -1331845236
+      DaySpriteSheet_97: -26903035
+      DaySpriteSheet_98: 1656293970
+      DaySpriteSheet_99: 1771014614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
