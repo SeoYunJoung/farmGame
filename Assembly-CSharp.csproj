@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{50CEADEF-9BCD-0372-5F42-0C968AD34883}</ProjectGuid>
+    <ProjectGuid>{022BB057-B457-E31C-C712-69350FE0F486}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     <Compile Include="Assets\Map\Tiles\tileManager.cs" />
     <Compile Include="Assets\Map\CameraTarget.cs" />
     <Compile Include="Assets\UI\ObjData.cs" />
+    <Compile Include="Assets\UI\TypeEffect.cs" />
     <Compile Include="Assets\Character\playerMove.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\UI\TalkManager.cs" />

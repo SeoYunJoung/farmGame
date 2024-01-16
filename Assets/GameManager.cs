@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     //¥Î»≠¿Â UI
     public TalkManager talkManager;
     public GameObject talkPanel;
-    //public Image portraitImg;
+    public Image portraitImg;
     public Text talkText;
     public GameObject scanObject;
     public bool talkAction;
