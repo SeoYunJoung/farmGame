@@ -21,15 +21,15 @@ public class DigitalClock : MonoBehaviour
         int second = ((int)(virtualTime * 3600)) % 60;
         int day = ((int)virtualTime / 24) % 7; // ¿äÀÏ (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
 
-        int hourTens = hour / 10;
+        int hourTens = (int)(hour / 10);
         int hourOnes = hour % 10;
         int minuteTens = minute / 10;
         int minuteOnes = minute % 10;
 
-        //hourTensRenderer.sprite = numberSprites[hourTens];
-        //hourOnesRenderer.sprite = numberSprites[hourOnes];
-        //minuteTensRenderer.sprite = numberSprites[minuteTens];
-        //minuteOnesRenderer.sprite = numberSprites[minuteOnes];
-        //dayRenderer.sprite = daySprites[day];
+        hourTensRenderer.sprite = numberSprites[hourTens];
+        hourOnesRenderer.sprite = numberSprites[hourOnes];
+        minuteTensRenderer.sprite = numberSprites[minuteTens];
+        minuteOnesRenderer.sprite = numberSprites[minuteOnes];
+        dayRenderer.sprite = daySprites[day];
     }
 }

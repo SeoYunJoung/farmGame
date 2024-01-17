@@ -29,7 +29,7 @@ public class CameraTarget : MonoBehaviour
         if (player != null)
         {
             transform.position = Vector3.Lerp(transform.position, player.transform.position + cameraPosition,
-                                  Time.deltaTime * cameraMoveSpeed);
+                                  cameraMoveSpeed);
 
             transform.position = LimitCameraArea(transform.position);
         }
