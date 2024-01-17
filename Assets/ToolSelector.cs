@@ -5,12 +5,17 @@ using UnityEngine.UI;
 
 public class ToolSelector : MonoBehaviour
 {
-    public GameObject[] toolSlots; // 도구 슬롯을 담는 배열
+    public ToolSlot[] toolSlots; // 도구 슬롯을 담는 배열
     public Sprite[] toolImages; // 도구 이미지를 담는 배열
     public int selectedToolIndex = 0; // 현재 선택된 도구의 인덱스
 
     private void Start()
     {
+        for (int i = 0; i < toolSlots.Length; i++)
+        {
+            toolSlots[i].SetImage(toolImages[i]); // 각 슬롯에 이미지 설정
+        }
+
         SelectTool(selectedToolIndex); // 초기 도구 선택
     }
 
