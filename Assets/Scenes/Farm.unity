@@ -26631,7 +26631,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 3
   m_Text: "\uC5EC\uAE30\uB294 \uB300\uD654 \uB0B4\uC6A9\uC744 \uC791\uC131\uD558\uB294
     \uACF5\uAC04\uC785\uB2C8\uB2E4."
 --- !u!222 &1971894677
@@ -26654,8 +26654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 163d1e69a555fc549b8e6809eb70b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharPerSeconds: 6
+  CharPerSeconds: 30
   EndCursor: {fileID: 746849489}
+  msgText: {fileID: 1971894676}
 --- !u!1 &1990689168
 GameObject:
   m_ObjectHideFlags: 0
@@ -27170,7 +27171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2078427328
 RectTransform:
   m_ObjectHideFlags: 0
