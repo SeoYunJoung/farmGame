@@ -19644,17 +19644,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolSlots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  toolImages: []
-  selectedToolIndex: 0
+  - {fileID: 750112173}
+  - {fileID: 58349438}
+  - {fileID: 594067751}
+  toolImages:
+  - {fileID: 21300000, guid: 7a7aeba1daf44744d8031ab7661adad2, type: 3}
+  - {fileID: 21300000, guid: b7e35522b6681d247b3e79b43f8f97c3, type: 3}
+  - {fileID: 21300000, guid: 6a16a5ed8f3be1b4091be8aa40da0b65, type: 3}
 --- !u!114 &962463311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26656,6 +26652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharPerSeconds: 6
   EndCursor: {fileID: 746849489}
+  msgText: {fileID: 0}
 --- !u!1 &1990689168
 GameObject:
   m_ObjectHideFlags: 0

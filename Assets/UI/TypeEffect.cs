@@ -8,8 +8,9 @@ public class TypeEffect : MonoBehaviour
     string targetMsg; //문자열 변수
     public int CharPerSeconds; //문자열 재생 속도
     public GameObject EndCursor;
-    Text msgText; //대화 텍스트 가져오기
+    public Text msgText; //대화 텍스트 가져오기
     int index; //대화 텍스트 index
+    float interval;
 
 
     private void Awake()
@@ -29,7 +30,9 @@ public class TypeEffect : MonoBehaviour
         index = 0;
         EndCursor.SetActive(false); //엔드커서 비활성화
 
-        Invoke("Effecting", 1/CharPerSeconds); //Effecting 함수 속도만큼 시간 지연
+        interval = 1.0f/CharPerSeconds; //1초에 나올 글자 수
+        Debug.Log(interval);
+        Invoke("Effecting", interval); //Effecting 함수 속도만큼 시간 지연
     }
 
     void Effecting()
@@ -42,7 +45,7 @@ public class TypeEffect : MonoBehaviour
         msgText.text += targetMsg[index]; //문자열 배열처럼 접근 가능!
         index++;
 
-        Invoke("Effecting", 1 / CharPerSeconds); //재귀함수
+        Invoke("Effecting", interval); //재귀함수
     }
 
     void EffectEnd()
