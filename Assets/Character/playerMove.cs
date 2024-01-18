@@ -92,7 +92,7 @@ public class playerMove : MonoBehaviour
             manager.Action(scanObject);
         }
 
-        //경작하기
+        //경작하기 & 씨앗 심기
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Vector3Int position = new Vector3Int((int)(rigid.position.x - 0.3), (int)(rigid.position.y - 1.1), 0);
@@ -101,7 +101,30 @@ public class playerMove : MonoBehaviour
             if (GameManager.instance.tileManager.IsInteractable(position))
             {
                 Debug.Log("경작 대상"); //테스트용 로그
-                GameManager.instance.tileManager.SetField(position);
+                GameManager.instance.tileManager.SetField(position); //경작
+            }
+            //씨앗 심기 가능 여부 체크
+            else if (GameManager.instance.tileManager.IsSeed(position))
+            {
+                Debug.Log("씨앗 심기 대상"); //테스트용 로그
+                GameManager.instance.tileManager.SetSeed(position); //씨앗 심기
+            }
+        }
+
+        //물주기
+        if (Input.GetKeyDown(KeyCode.C)){
+            Vector3Int position = new Vector3Int((int)(rigid.position.x - 0.3), (int)(rigid.position.y - 1.1), 0);
+
+            //물주기 가능 여부 체크
+            if (GameManager.instance.tileManager.IsWater_F(position))
+            {
+                Debug.Log("물주기 대상"); //테스트용 로그
+                GameManager.instance.tileManager.SetWater_F(position); //물주기
+            }
+            else if (GameManager.instance.tileManager.IsWater_S(position))
+            {
+                Debug.Log("물주기 대상"); //테스트용 로그
+                GameManager.instance.tileManager.SetWater_S(position); //물주기
             }
         }
     }
