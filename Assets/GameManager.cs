@@ -13,8 +13,6 @@ public class GameManager : MonoBehaviour
     public TalkManager talkManager;
     public GameObject talkPanel;
     public Image portraitImg;
-    public Sprite prevPortraitImg;
-    public Animator portAnim;
     public TypeEffect talk;
     public GameObject scanObject;
     public bool talkAction;
@@ -60,15 +58,8 @@ public class GameManager : MonoBehaviour
             return; //함수 종료
         }
 
-        talk.SetMsg(talkData.Split(':')[0]); //대화 출력
-        portraitImg.sprite = talkManager.GetPortrait
-            (id, int.Parse(talkData.Split(":")[1])); //초상화 출력
-        if(prevPortraitImg != portraitImg.sprite)
-        {
-            portAnim.SetTrigger("doEffect");
-            prevPortraitImg = portraitImg.sprite;
-            portAnim.SetTrigger("doEffect");
-        }
+        talk.SetMsg(talkData);
+        //portraitImg.color = new Color(1, 1, 1, 1);
 
         talkAction = true;
         talkIndex++;
