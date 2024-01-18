@@ -26,10 +26,10 @@ public class DigitalClock : MonoBehaviour
         int minuteTens = minute / 10;
         int minuteOnes = minute % 10;
 
-        //hourTensRenderer.sprite = numberSprites[hourTens];
-        //hourOnesRenderer.sprite = numberSprites[hourOnes];
-        //minuteTensRenderer.sprite = numberSprites[minuteTens];
-        //minuteOnesRenderer.sprite = numberSprites[minuteOnes];
-        //dayRenderer.sprite = daySprites[day];
+        hourTensRenderer.sprite = numberSprites[hourTens];
+        hourOnesRenderer.sprite = numberSprites[hourOnes];
+        minuteTensRenderer.sprite = numberSprites[minuteTens];
+        minuteOnesRenderer.sprite = numberSprites[minuteOnes];
+        dayRenderer.sprite = daySprites[day];
     }
 }

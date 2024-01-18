@@ -64,11 +64,13 @@
     <Compile Include="Assets\DigitalClock.cs" />
     <Compile Include="Assets\ToolSlot.cs" />
     <Compile Include="Assets\UI\TypeEffect.cs" />
+    <Compile Include="Assets\Resources\script\DatabaseManager.cs" />
     <Compile Include="Assets\Scenes\Map\CameraTarget.cs" />
     <Compile Include="Assets\Character\playerMove.cs" />
     <Compile Include="Assets\Scenes\Map\Tiles\tileManager.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\ToolSelector.cs" />
+    <Compile Include="Assets\Resources\script\item.cs" />
     <Compile Include="Assets\UI\TalkManager.cs" />
   </ItemGroup>
   <ItemGroup>
